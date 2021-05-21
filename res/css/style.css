@@ -20,7 +20,7 @@ header {
   font-size: 38px;
   display: flex;
   margin-bottom: 10px;
-  background-color:#51db5ca4;
+  background-color: #51db5ca4;
   padding: 12px;
 }
 
@@ -41,10 +41,11 @@ nav ul {
 
 nav li {
   display: flex;
+  position: relative;
+  /* display: inline-block; */
 }
 
 nav a {
-  text-decoration: none;
   text-decoration: none;
   margin: 4px;
   padding: 6px;
@@ -67,6 +68,20 @@ footer a:visited {
 
 nav a:hover {
   background: #c1c1c1;
+}
+
+#overview:hover > .sideMenu {
+  display: block;
+}
+
+.sideMenu {
+  display: none;
+  z-index: 1;
+  width: 160px;
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  background-color: white;
 }
 
 main {
