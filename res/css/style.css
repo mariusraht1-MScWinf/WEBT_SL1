@@ -43,7 +43,6 @@ nav ul {
 nav li {
   display: flex;
   position: relative;
-  /* display: inline-block; */
 }
 
 nav a {
@@ -93,6 +92,9 @@ nav a:hover {
 
 main {
   grid-column: 3;
+  overflow: auto;
+  height: calc(100vh - 140px);
+  width: 100vh;
 }
 
 footer {
@@ -111,4 +113,21 @@ footer a {
 h1 {
   text-align: center;
   margin: 2px 0px 20px 0px;
+}
+
+.linkToTop {
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  bottom: 4px;
+  padding: 0px 4px 4px 4px;
+  background-color: #e1e1e1;
+  display: flex;
+  float: right;
+  right: 10px;
+  color: black;
+}
+
+.linkToTop:visited {
+  color: black;
 }
