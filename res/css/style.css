@@ -71,6 +71,12 @@ nav a:hover {
   background: #c1c1c1;
 }
 
+#overview a > img {
+  width: 18px;
+  display: flex;
+  float: right;
+}
+
 #overview:hover > .sideMenu {
   display: block;
 }
