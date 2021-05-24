@@ -1,0 +1,47 @@
+main {
+  display: grid;
+  grid-template-columns: minmax(40px, 1fr) auto minmax(40px, 1fr);
+  grid-template-rows: auto auto auto auto minmax(20px, 1fr);
+  grid-auto-flow: row;
+}
+
+main h1 {
+  grid-column: 2;
+}
+
+#einleitung {
+  grid-column: 2;
+}
+
+#chapter1 {
+  grid-column: 2;
+}
+
+#chapter1 p {
+  margin: 0px;
+}
+
+#chapter1 img {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#chapter2a {
+  grid-column: 2;
+}
+
+#chapter2a img {
+  width: 225px;
+  float: right;
+  margin-top: 10px;
+}
+
+#chapter2b {
+  grid-column: 2;
+}
+
+div:last-of-type {
+  grid-column: 2;
+}
