@@ -1,67 +1,68 @@
 <!DOCTYPE html>
 <html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>SofaWeb - Web-Technologien</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="res/css/style.css" />
+    <link rel="stylesheet" href="res/css/overview.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>SofaWeb - Web-Technologien</title>
-  <!-- CSS -->
-  <link rel="stylesheet" href="res/css/style.css" />
-  <link rel="stylesheet" href="res/css/overview.css" />
-</head>
+  <body>
+    <header><img id="logo" src="res/img/logo.png" alt="logo" />SofaWeb - Web-Technologien</header>
 
-<body>
-  <header><img id="logo" src="res/img/logo.png" alt="logo" />SofaWeb - Web-Technologien</header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Startseite</a></li>
+        <li id="overview">
+          <a href="overview.html" class="active">Übersicht<img src="res/img/arrow_right.svg" alt="->" /></a>
+          <ul class="sideMenu">
+            <li><a href="01_web.html">01 - Das Web</a></li>
+            <li><a href="02a_html.html">02a - HTML</a></li>
+            <li><a href="02b_css.html">02b - CSS</a></li>
+          </ul>
+        </li>
+        <li><a href="glossar.html">Glossar</a></li>
+        <li><a href="examples.html">Beispiele</a></li>
+        <li><a href="about.html">Über uns</a></li>
+      </ul>
+    </nav>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Startseite</a></li>
-      <li id="overview">
-        <a href="overview.html" class="active">Übersicht<img src="res/img/arrow_right.svg" alt="->" /></a>
-        <ul class="sideMenu">
-          <li><a href="01_web.html">01 - Das Web</a></li>
-          <li><a href="02a_html.html">02a - HTML</a></li>
-          <li><a href="02b_css.html">02b - CSS</a></li>
-        </ul>
-      </li>
-      <li><a href="glossar.html">Glossar</a></li>
-      <li><a href="examples.html">Beispiele</a></li>
-      <li><a href="about.html">Über uns</a></li>
-    </ul>
-  </nav>
+    <main>
+      <h1>Übersicht</h1>
+      <p>
+        <a href="01_web.html">Kapitel 1</a> widmet sich den Technologien und dem grundsätzlichen Aufbau des World Wide
+        Webs...
+      </p>
+      <p><a href="02a_html.html">Kapitel 2a</a> beschreibt HTML als Beschreibungssprache für Webseiten...</p>
+      <p><a href="02b_css.html">Kapitel 2b</a> geht auf CSS als Gestaltungssprache für Webseiten ein...</p>
+      <form id="newEntry" action="https://example.com/add-entry-form.php" method="post">
+        <h3>Neuen Glossar-Eintrag hinzufügen</h3>
+        <table>
+          <tbody>
+            <tr>
+              <td><label for="name">Name:</label></td>
+              <td><input type="text" name="name" id="name" /></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><label for="name">Fachbegriff:</label></td>
+              <td><input type="text" name="fachbegriff" id="fachbegriff" /></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><label for="name">Erklärung:</label></td>
+              <td><input type="text" name="erklaerung" id="erklaerung" /></td>
+              <td><input type="submit" name="submit" id="submit" value="Speichern" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </main>
 
-  <main>
-    <h1>Übersicht</h1>
-    <p><a href="01_web.html">Kapitel 1</a> widmet sich den Technologien und dem grundsätzlichen Aufbau des World Wide Webs...</p>
-    <p><a href="02a_html.html">Kapitel 2a</a> beschreibt HTML als Beschreibungssprache für Webseiten...</p>
-    <p><a href="02b_css.html">Kapitel 2b</a> geht auf CSS als Gestaltungssprache für Webseiten ein...</p>
-    <form id="newEntry" action="https://example.com/add-entry-form.php" method="post">
-      <h3>Neuen Glossar-Eintrag hinzufügen</h3>
-      <table>
-        <tbody>
-          <tr>
-            <td><label for="name">Name:</label></td>
-            <td><input type="text" name="name" id="name" /></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td><label for="name">Fachbegriff:</label></td>
-            <td><input type="text" name="fachbegriff" id="fachbegriff" /></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td><label for="name">Erklärung:</label></td>
-            <td><input type="text" name="erklaerung" id="erklaerung" /></td>
-            <td><input type="submit" name="submit" id="submit" value="Speichern"></td>
-          </tr>
-        </tbody>
-      </table>
-    </form>
-  </main>
-
-  <footer>
-    <a href="contact.html">Kontakt</a>
-    <a href="impressum.html">Impressum</a>
-  </footer>
-</body>
-
+    <footer>
+      <a href="contact.html">Kontakt</a>
+      <a href="impressum.html">Impressum</a>
+    </footer>
+  </body>
 </html>

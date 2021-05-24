@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>SofaWeb - Web-Technologien</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="res/css/style.css" />
+    <link rel="stylesheet" href="res/css/index.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>SofaWeb - Web-Technologien</title>
-  <!-- CSS -->
-  <link rel="stylesheet" href="res/css/style.css" />
-  <link rel="stylesheet" href="res/css/index.css" />
-</head>
+  <body>
+    <header><img id="logo" src="res/img/logo.png" alt="logo" />SofaWeb - Web-Technologien</header>
 
-<body>
-  <header><img id="logo" src="res/img/logo.png" alt="logo" />SofaWeb - Web-Technologien</header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Startseite</a></li>
+        <li id="overview">
+          <a href="overview.html">Übersicht<img src="res/img/arrow_right.svg" alt="->" /></a>
+          <ul class="sideMenu">
+            <li><a href="01_web.html">01 - Das Web</a></li>
+            <li><a href="02a_html.html">02a - HTML</a></li>
+            <li><a href="02b_css.html">02b - CSS</a></li>
+          </ul>
+        </li>
+        <li><a href="glossar.html">Glossar</a></li>
+        <li><a href="examples.html">Beispiele</a></li>
+        <li><a href="about.html">Über uns</a></li>
+      </ul>
+    </nav>
 
-  <nav>
-    <ul>
-      <li><a href="index.html" class="active">Startseite</a></li>
-      <li id="overview">
-        <a href="overview.html">Übersicht<img src="res/img/arrow_right.svg" alt="->" /></a>
-        <ul class="sideMenu">
-          <li><a href="01_web.html">01 - Das Web</a></li>
-          <li><a href="02a_html.html">02a - HTML</a></li>
-          <li><a href="02b_css.html">02b - CSS</a></li>
-        </ul>
-      </li>
-      <li><a href="glossar.html">Glossar</a></li>
-      <li><a href="examples.html">Beispiele</a></li>
-      <li><a href="about.html">Über uns</a></li>
-    </ul>
-  </nav>
+    <main>
+      <h1>Herzlich Willkommen!</h1>
+      <div id="einleitung">
+        <p>
+          Diese Website widmet sich dem Überblick über die einzelnen Aspekte von Web-Technologien. Sie soll einen
+          Überblick über das Web im Allgemeinen, HTML und CSS bieten.
+        </p>
+      </div>
+      <div id="chapter1">
+        <p>
+          <a href="01_web.html">Kapitel 1</a> erläutert die Grundprinzipien des World Wide Webs (WWW), des
+          Client-Server-Prinzips, des ISO/OSI-Schichtenmodells und HTTP-Requests. Zudem werden die gebräuchlichsten
+          Begriffe kurz vorgestellt.
+        </p>
+        <img src="res/img/web.png" alt="Aufbau des World Wide Webs" />
+      </div>
+      <div id="chapter2a">
+        <img src="res/img/html_css_js.png" alt="HTML, CSS and JavaScript" />
+        <p>
+          In <a href="02a_html.html">Kapitel 2a</a> gehen wir auf die <b>H</b>yper<b>T</b>ext <b>M</b>arkup
+          <b>L</b>anguage (HTML) als Auszeichnungssprache für Webseiten ein und erläutern gängige Begriffe in diesem
+          Kontext.
+        </p>
+        <p>
+          <a href="02b_css.html">Kapitel 2b</a> widmet sich den <b>C</b>ascading <b>S</b>tyle <b>S</b>heets (CSS) mit
+          denen das Aussehen von Webseiten gestaltet werden kann.
+        </p>
+        <p>
+          Kapitel 3 ist noch in Bearbeitung und wird sich um <b>J</b>ava<b>S</b>cript (JS) als dynamische Komponente
+          einer Webseite drehen.
+        </p>
+      </div>
+      <div></div>
+    </main>
 
-  <main>
-    <h1>Herzlich Willkommen!</h1>
-    <div id="einleitung">
-      <p>Diese Website widmet sich dem Überblick über die einzelnen Aspekte von Web-Technologien. Sie
-        soll einen Überblick über das Web im Allgemeinen, HTML und CSS bieten.</p>
-    </div>
-    <div id="chapter1">
-      <p><a href="01_web.html">Kapitel 1</a> erläutert die
-        Grundprinzipien des World Wide Webs (WWW), des Client-Server-Prinzips, des ISO/OSI-Schichtenmodells und
-        HTTP-Requests. Zudem werden die gebräuchlichsten Begriffe kurz vorgestellt.</p>
-      <img src="res/img/web.png" alt="Aufbau des World Wide Webs" />
-    </div>
-    <div id="chapter2a">
-      <img src="res/img/html_css_js.png" alt="HTML, CSS and JavaScript" />
-      <p>In <a href="02a_html.html">Kapitel 2a</a> gehen wir auf die <b>H</b>yper<b>T</b>ext <b>M</b>arkup
-        <b>L</b>anguage (HTML)
-        als Auszeichnungssprache für Webseiten ein und erläutern gängige Begriffe in diesem Kontext.
-      </p>
-      <p><a href="02b_css.html">Kapitel 2b</a> widmet sich den <b>C</b>ascading <b>S</b>tyle <b>S</b>heets (CSS) mit
-        denen das Aussehen von Webseiten gestaltet werden kann.</p>
-      <p>Kapitel 3 ist noch in Bearbeitung und wird sich um <b>J</b>ava<b>S</b>cript (JS) als dynamische Komponente
-        einer Webseite drehen.</p>
-    </div>
-    <div></div>
-  </main>
-
-  <footer>
-    <a href="contact.html">Kontakt</a>
-    <a href="impressum.html">Impressum</a>
-  </footer>
-</body>
-
+    <footer>
+      <a href="contact.html">Kontakt</a>
+      <a href="impressum.html">Impressum</a>
+    </footer>
+  </body>
 </html>

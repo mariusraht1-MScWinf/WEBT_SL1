@@ -1,104 +1,112 @@
 <!DOCTYPE html>
 <html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>SofaWeb - Web-Technologien</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="res/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>SofaWeb - Web-Technologien</title>
-  <!-- CSS -->
-  <link rel="stylesheet" href="res/css/style.css" />
-</head>
+  <body>
+    <header><img id="logo" src="res/img/logo.png" alt="logo" />SofaWeb - Web-Technologien</header>
 
-<body>
-  <header><img id="logo" src="res/img/logo.png" alt="logo" />SofaWeb - Web-Technologien</header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Startseite</a></li>
+        <li id="overview">
+          <a href="overview.html" class="active">Übersicht<img src="res/img/arrow_right.svg" alt="->" /></a>
+          <ul class="sideMenu">
+            <li><a href="01_web.html" class="active">01 - Das Web</a></li>
+            <li><a href="02a_html.html">02a - HTML</a></li>
+            <li><a href="02b_css.html">02b - CSS</a></li>
+          </ul>
+        </li>
+        <li><a href="glossar.html">Glossar</a></li>
+        <li><a href="examples.html">Beispiele</a></li>
+        <li><a href="about.html">Über uns</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>01 - Das Web</h1>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Startseite</a></li>
-      <li id="overview">
-        <a href="overview.html" class="active">Übersicht<img src="res/img/arrow_right.svg" alt="->" /></a>
-        <ul class="sideMenu">
-          <li><a href="01_web.html" class="active">01 - Das Web</a></li>
-          <li><a href="02a_html.html">02a - HTML</a></li>
-          <li><a href="02b_css.html">02b - CSS</a></li>
-        </ul>
-      </li>
-      <li><a href="glossar.html">Glossar</a></li>
-      <li><a href="examples.html">Beispiele</a></li>
-      <li><a href="about.html">Über uns</a></li>
-    </ul>
-  </nav>
-  <main>
-    <h1>01 - Das Web</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Fachbegriff</th>
+            <th>Erklärung</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a name="tcp">TCP</a></td>
+            <td>
+              Das Transmission Control Protocol ist eines der zentralen Protokolle der TCP/IP-Protokollfamilie. Es nutzt
+              auf der Vermittlungsebene die Funktionen des Internet Protocols (IP), sorgt für gesicherte
+              Ende-zu-Ende-Verbindungen zwischen den Kommunikationspartnern und adressiert über Ports die Anwendungen
+              höherer Ebenen
+            </td>
+          </tr>
+          <tr>
+            <td><a name="ip"></a>IP</td>
+            <td>
+              Das Internet Protocol (IP) ist ein in Computernetzen weit verbreitetes Netzwerkprotokoll und stellt durch
+              seine Funktion die Grundlage des Internets dar. Das IP ist die Implementierung der Internetschicht des
+              TCP/IP-Modells bzw. der Vermittlungsschicht (engl. Network Layer) des OSI-Modells.
+            </td>
+          </tr>
+          <tr>
+            <td><a name="dns"></a>DNS</td>
+            <td>
+              Das Domain Name System (DNS) ist das Telefonbuch des Internets. Menschen greifen online über Domainnamen
+              wie nytimes.com oder espn.com auf Informationen zu. Webbrowser interagieren über IP-Adressen (Internet
+              Protocol). DNS übersetzt Domainnamen in IP-Adressen, damit Browser Internetressourcen laden können.
+            </td>
+          </tr>
+          <tr>
+            <td><a name="iso_osi"></a>ISO/OSI Modell</td>
+            <td>
+              Das ISO/OSI-Referenzmodell[1] (englisch Open Systems Interconnection model) ist ein Referenzmodell für
+              Netzwerkprotokolle als Schichtenarchitektur. Es wird seit 1983 von der International Telecommunication
+              Union (ITU) und seit 1984 auch von der International Organization for Standardization (ISO) als Standard
+              veröffentlicht. Zweck des OSI-Modells ist, Kommunikation über unterschiedlichste technische Systeme hinweg
+              zu beschreiben und die Weiterentwicklung zu begünstigen. Dazu definiert dieses Modell sieben
+              aufeinanderfolgende Schichten (engl. layers) mit jeweils eng begrenzten Aufgaben. In der gleichen Schicht
+              mit klaren Schnittstellen definierte Netzwerkprotokolle sind einfach untereinander austauschbar, selbst
+              wenn sie wie das Internet Protocol eine zentrale Funktion haben.
+            </td>
+          </tr>
+          <tr>
+            <td><a name="http"></a>HTTP</td>
+            <td>
+              Das Hypertext Transfer Protocol (HTTP, englisch für Hypertext-Übertragungsprotokoll) ist ein zustandsloses
+              Protokoll zur Übertragung von Daten auf der Anwendungsschicht über ein Rechnernetz. Es wird hauptsächlich
+              eingesetzt, um Webseiten (Hypertext-Dokumente) aus dem World Wide Web (WWW) in einen Webbrowser zu laden
+            </td>
+          </tr>
+          <tr>
+            <td><a name="uri"></a>URI</td>
+            <td>
+              Ein Uniform Resource Identifier (Abk. URI, englisch für einheitlicher Bezeichner für Ressourcen) ist ein
+              Identifikator und besteht aus einer Zeichenfolge, die zur Identifizierung einer abstrakten oder physischen
+              Ressource dient. URIs werden zur Bezeichnung von Ressourcen (wie Webseiten, sonstigen Dateien, Aufruf von
+              Webservices, aber auch z. B. E-Mail-Empfängern) im Internet und dort vor allem im WWW eingesetzt
+            </td>
+          </tr>
+          <tr>
+            <td><a name="proxy"></a>Proxy-Server</td>
+            <td>
+              Ein Proxy ist eine Kommunikationsschnittstelle in einem Netzwerk aus Rechnern in Form eines physischen
+              Computers. Er arbeitet als Vermittler, der auf der einen Seite Anfragen entgegennimmt, um dann über seine
+              eigene Adresse eine Verbindung zur anderen Seite herzustellen.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Fachbegriff</th>
-          <th>Erklärung</th>
-        </tr>
-      </thead>
-      <tbody>
-
-
-        <tr>
-          <td><a name="tcp">TCP</a></td>
-          <td>Das Transmission Control Protocol ist eines der zentralen Protokolle der TCP/IP-Protokollfamilie. Es nutzt
-            auf der Vermittlungsebene die Funktionen des Internet Protocols (IP), sorgt für gesicherte
-            Ende-zu-Ende-Verbindungen zwischen den Kommunikationspartnern und adressiert über Ports die Anwendungen
-            höherer Ebenen</td>
-        </tr>
-        <tr>
-          <td><a name="ip"></a>IP</td>
-          <td>Das Internet Protocol (IP) ist ein in Computernetzen weit verbreitetes Netzwerkprotokoll und stellt durch
-            seine Funktion die Grundlage des Internets dar. Das IP ist die Implementierung der Internetschicht des
-            TCP/IP-Modells bzw. der Vermittlungsschicht (engl. Network Layer) des OSI-Modells.</td>
-        </tr>
-        <tr>
-          <td><a name="dns"></a>DNS</td>
-          <td>Das Domain Name System (DNS) ist das Telefonbuch des Internets. Menschen greifen online über Domainnamen
-            wie nytimes.com oder espn.com auf Informationen zu. Webbrowser interagieren über IP-Adressen (Internet
-            Protocol). DNS übersetzt Domainnamen in IP-Adressen, damit Browser Internetressourcen laden können.</td>
-        </tr>
-        <tr>
-          <td><a name="iso_osi"></a>ISO/OSI Modell</td>
-          <td>Das ISO/OSI-Referenzmodell[1] (englisch Open Systems Interconnection model) ist ein Referenzmodell für
-            Netzwerkprotokolle als Schichtenarchitektur. Es wird seit 1983 von der International Telecommunication Union
-            (ITU) und seit 1984 auch von der International Organization for Standardization (ISO) als Standard
-            veröffentlicht. Zweck des OSI-Modells ist, Kommunikation über unterschiedlichste technische Systeme hinweg
-            zu beschreiben und die Weiterentwicklung zu begünstigen. Dazu definiert dieses Modell sieben
-            aufeinanderfolgende Schichten (engl. layers) mit jeweils eng begrenzten Aufgaben. In der gleichen Schicht
-            mit klaren Schnittstellen definierte Netzwerkprotokolle sind einfach untereinander austauschbar, selbst wenn
-            sie wie das Internet Protocol eine zentrale Funktion haben.</td>
-        </tr>
-        <tr>
-          <td><a name="http"></a>HTTP</td>
-          <td>Das Hypertext Transfer Protocol (HTTP, englisch für Hypertext-Übertragungsprotokoll) ist ein zustandsloses
-            Protokoll zur Übertragung von Daten auf der Anwendungsschicht über ein Rechnernetz. Es wird hauptsächlich
-            eingesetzt, um Webseiten (Hypertext-Dokumente) aus dem World Wide Web (WWW) in einen Webbrowser zu laden
-          </td>
-        </tr>
-        <tr>
-          <td><a name="uri"></a>URI</td>
-          <td>Ein Uniform Resource Identifier (Abk. URI, englisch für einheitlicher Bezeichner für Ressourcen) ist ein
-            Identifikator und besteht aus einer Zeichenfolge, die zur Identifizierung einer abstrakten oder physischen
-            Ressource dient. URIs werden zur Bezeichnung von Ressourcen (wie Webseiten, sonstigen Dateien, Aufruf von
-            Webservices, aber auch z. B. E-Mail-Empfängern) im Internet und dort vor allem im WWW eingesetzt</td>
-        </tr>
-        <tr>
-          <td><a name="proxy"></a>Proxy-Server</td>
-          <td>Ein Proxy ist eine Kommunikationsschnittstelle in einem Netzwerk aus Rechnern in Form eines physischen
-            Computers. Er arbeitet als Vermittler, der auf der einen Seite Anfragen entgegennimmt, um dann über seine
-            eigene Adresse eine Verbindung zur anderen Seite herzustellen.</td>
-        </tr>
-      </tbody>
-    </table>
-
-  </main>
-
-  <footer>
-    <a href="contact.html">Kontakt</a>
-    <a href="impressum.html">Impressum</a>
-  </footer>
-</body>
-
+    <footer>
+      <a href="contact.html">Kontakt</a>
+      <a href="impressum.html">Impressum</a>
+    </footer>
+  </body>
 </html>
