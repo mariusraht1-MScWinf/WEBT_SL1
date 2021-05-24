@@ -164,11 +164,12 @@ table {
   border-collapse: separate;
   border-spacing: 0,2cm;
   border-width:inherit;
-  outline:black;
+  outline:ghostwhite
 	border-style: solid;
-	border-color:aqua 
-
+	border-color:rgb(127, 255, 227); 
+  background-color: rgb(217, 236, 231);
 }
+
 
 td {
   padding: 0,2cm;
