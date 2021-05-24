@@ -158,3 +158,20 @@ input[type="submit"]:hover {
 p {
   text-align: justify;
 }
+
+table {
+  table-layout: auto;
+  border-collapse: separate;
+  border-spacing: 0,2cm;
+  border-width: 20px;
+  outline: auto;
+	border-style: solid;
+	border-color:aqua 
+
+}
+
+td, th {
+  border: rgb(127, 246, 255);
+  padding: 0cm;
+  text-align: left;
+}
