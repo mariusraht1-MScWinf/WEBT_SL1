@@ -165,7 +165,7 @@ table {
   border-spacing: 0,2cm;
   border-width:inherit;
   outline:ghostwhite
-	border-style: solid;
+	border-style:inherit
 	border-color:rgb(127, 255, 227); 
   background-color: rgb(217, 236, 231);
 }
