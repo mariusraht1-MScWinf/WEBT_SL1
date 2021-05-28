@@ -9,10 +9,11 @@
 </head>
 
 <body>
-  <header><img id="logo" src="res/img/logo.png" alt="logo" />SofaWeb - Web-Technologien</header>
+  <header><img src="res/img/logo.png" alt="logo" /><span>SofaWeb - Web-Technologien</span></header>
 
   <nav>
-    <ul>
+    <div id="mobileMenu"><img src="res/img/menu.svg"></div>
+    <ul id="desktopMenu">
       <li><a href="index.html">Startseite</a></li>
       <li id="overview">
         <a href="overview.html" class="active">Übersicht<img src="res/img/arrow_right.svg" alt="->" /></a>
@@ -31,7 +32,7 @@
   <main>
     <h1>02a - HTML</h1>
 
-    <table>
+    <table class="glossar">
       <thead>
         <tr>
           <th>Fachbegriff</th>

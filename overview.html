@@ -9,10 +9,11 @@
   </head>
 
   <body>
-    <header><img id="logo" src="res/img/logo.png" alt="logo" />SofaWeb - Web-Technologien</header>
+    <header><img src="res/img/logo.png" alt="logo" /><span>SofaWeb - Web-Technologien</span></header>
 
     <nav>
-      <ul>
+      <div id="mobileMenu"><img src="res/img/menu.svg" /></div>
+      <ul id="desktopMenu">
         <li><a href="index.html">Startseite</a></li>
         <li id="overview">
           <a href="overview.html" class="active">Übersicht<img src="res/img/arrow_right.svg" alt="->" /></a>
@@ -30,13 +31,31 @@
 
     <main>
       <h1>Übersicht</h1>
-      <p>
-        <a href="01_web.html">Kapitel 1</a> widmet sich den Technologien und dem grundsätzlichen Aufbau des World Wide
-        Webs...
-      </p>
-      <p><a href="02a_html.html">Kapitel 2a</a> beschreibt HTML als Beschreibungssprache für Webseiten...</p>
-      <p><a href="02b_css.html">Kapitel 2b</a> geht auf CSS als Gestaltungssprache für Webseiten ein...</p>
-      <form id="newEntry" action="https://example.com/add-entry-form.php" method="post">
+      <div id="chapter1">
+        <p>
+          <a href="01_web.html">Kapitel 1</a> erläutert die Grundprinzipien des World Wide Webs (WWW), des
+          Client-Server-Prinzips, des ISO/OSI-Schichtenmodells und HTTP-Requests. Zudem werden die gebräuchlichsten
+          Begriffe kurz vorgestellt.
+        </p>
+        <img src="res/img/web.png" alt="Aufbau des World Wide Webs" />
+      </div>
+      <div id="chapter2a">
+        <img src="res/img/html_css_js.png" alt="HTML, CSS and JavaScript" />
+        <p>
+          In <a href="02a_html.html">Kapitel 2a</a> gehen wir auf die <b>H</b>yper<b>T</b>ext <b>M</b>arkup
+          <b>L</b>anguage (HTML) als Auszeichnungssprache für Webseiten ein und erläutern gängige Begriffe in diesem
+          Kontext.
+        </p>
+        <p>
+          <a href="02b_css.html">Kapitel 2b</a> widmet sich den <b>C</b>ascading <b>S</b>tyle <b>S</b>heets (CSS) mit
+          denen das Aussehen von Webseiten gestaltet werden kann.
+        </p>
+        <p>
+          Kapitel 3 ist noch in Bearbeitung und wird sich um <b>J</b>ava<b>S</b>cript (JS) als dynamische Komponente
+          einer Webseite drehen.
+        </p>
+      </div>
+      <form action="https://example.com/add-entry-form.php" method="post">
         <h3>Neuen Glossar-Eintrag hinzufügen</h3>
         <table>
           <tbody>
@@ -58,6 +77,7 @@
           </tbody>
         </table>
       </form>
+      <div></div>
     </main>
 
     <footer>

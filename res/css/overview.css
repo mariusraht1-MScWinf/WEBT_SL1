@@ -1,31 +1,63 @@
-main {
-  display: grid;
-  grid-template-columns: minmax(50px, 1fr) auto minmax(50px, 1fr);
-  grid-template-rows: auto auto auto auto auto 1fr;
-  grid-auto-flow: row;
+#chapter1 p {
+  margin: 0px;
 }
 
-main h1 {
+#chapter1 img {
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#chapter2a {
   grid-column: 2;
-  grid-row: 1;
 }
 
-main p {
-  grid-column: 2;
+#chapter2a img {
+  width: 215px;
+  float: right;
+  margin: 2px 0px 0px 10px;
 }
 
-main form {
-  grid-column: 2;
-  margin-top: 20px;
-}
-
-#newEntry {
+form {
   border: 1px solid #e1e1e1;
   padding: 0px 20px 20px 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#newEntry h3 {
+form h3 {
   text-align: center;
+}
+
+form table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr td:first-of-type {
+  min-width: 100px;
+}
+
+input {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  tr td {
+    display: flex;
+  }
+
+  tr:last-of-type td:last-of-type {
+    display: flex;
+    float: left;
+  }
 }
