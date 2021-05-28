@@ -25,7 +25,8 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #04aa6d;
+  --main-color:#9af7a1;
+  background-color:#9af7a1;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -34,7 +35,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: rgb(69, 160, 76);
 }
 
 #contactContainer {
