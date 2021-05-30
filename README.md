@@ -1,3 +1,18 @@
+#SofaWeb - Web-Technologien
+Startseite: index.html
+Browser: Chrome, Vivaldi
+
+##Autoren
+Natasha Jung
+Marius Raht
+Zdravka Todorova
+
+##Validatoren
+- CSS: https://jigsaw.w3.org/css-validator/#validate_by_upload
+- HTML: https://validator.w3.org/#validate_by_upload
+
+--------------------------------------------------------------
+
 Shortcuts:
 - Pretty Printer: Alt + Shift + F
 - Save: Strg + S
@@ -7,3 +22,8 @@ Shortcuts:
 Committen:
 1. Commit Nachricht hinterlegen -> Strg + Enter drücken (Stagen)
 2. Push (synchronize changes, unterste Menüleiste)
+
+TODO:
+Zdravka - CSS
+Natasha - About, Examples, Web
+Marius - HTML, MinWidth, Form (hidden-input)

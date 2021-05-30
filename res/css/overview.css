@@ -40,7 +40,7 @@ tr td:first-of-type {
   min-width: 100px;
 }
 
-input {
+input, select {
   display: flex;
   width: 100%;
 }

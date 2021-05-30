@@ -9,7 +9,9 @@
   </head>
 
   <body>
-    <header><img src="res/img/logo.png" alt="logo" /><span>SofaWeb - Web-Technologien</span></header>
+    <header>
+      <a href="index.html"><img src="res/img/logo.png" alt="logo" /></a><span>SofaWeb - Web-Technologien</span>
+    </header>
 
     <nav>
       <div id="mobileMenu"><img src="res/img/menu.svg" /></div>
@@ -55,7 +57,7 @@
           einer Webseite drehen.
         </p>
       </div>
-      <form action="https://example.com/add-entry-form.php" method="post">
+      <form action="https://www.w3schools.com/action_page.php" method="post">
         <h3>Neuen Glossar-Eintrag hinzufügen</h3>
         <table>
           <tbody>
@@ -65,13 +67,24 @@
               <td></td>
             </tr>
             <tr>
-              <td><label for="name">Fachbegriff:</label></td>
+              <td><label for="fachbegriff">Fachbegriff:</label></td>
               <td><input type="text" name="fachbegriff" id="fachbegriff" /></td>
               <td></td>
             </tr>
             <tr>
-              <td><label for="name">Erklärung:</label></td>
+              <td><label for="erklaerung">Erklärung:</label></td>
               <td><input type="text" name="erklaerung" id="erklaerung" /></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><label for="kapitel">Kapitel:</label></td>
+              <td>
+                <select name="kapitel" id="kapitel">
+                  <option value="01_web">01 - Das Web</option>
+                  <option value="02a_html">02a - HTML</option>
+                  <option value="02b_css">02b - CSS</option>
+                </select>
+              </td>
               <td><input type="submit" name="submit" id="submit" value="Speichern" /></td>
             </tr>
           </tbody>
