@@ -194,8 +194,8 @@ p {
 
 .glossar tr:hover {background-color:#9af7a1;}
 
-.gossar td:first-child:hover{
-  color:brown
+.glossar td:first-child:hover{
+  color:#a52a2a
 }
 .glossar td:first-child{ 
   cursor:pointer;
