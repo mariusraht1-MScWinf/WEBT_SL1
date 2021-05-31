@@ -1,5 +1,6 @@
 :root {
   --main-color: #9af7a1;
+  --side-color: #bfffc5;
 }
 
 * {
@@ -79,7 +80,7 @@ nav a > img {
 
 nav a.active,
 footer a.active {
-  background: #e1e1e1;
+  background-color: #e1e1e1;
   font-weight: 600;
 }
 
@@ -98,7 +99,6 @@ nav a:hover {
   border: 1px solid black;
   padding: 4px 0px 4px 0px;
   background-color: var(--main-color);
-  filter: brightness(120%);
 }
 
 #mobileMenu img {
@@ -118,12 +118,12 @@ nav a:hover {
   top: 0px;
   left: 175px;
   border: 1px solid black;
-  background-color: var(--main-color);
-  filter: brightness(120%);
+  background-color: var(--side-color);
 }
 
 main {
   overflow: auto;
+  width: calc(100vw - 220px);
   max-width: 900px;
   height: calc(100vh - 140px);
   border: 1px solid black;
@@ -192,18 +192,19 @@ p {
   background-color: #e1e1e1;
 }
 
-.glossar tr:hover {background-color:#9af7a1;}
-
-.glossar td:first-child:hover{
-  color:hsl(32, 88%, 54%)
-}
-.glossar td:first-child{ 
-  cursor:pointer;
-}
-
-tr:nth-child(even) {
+.glossar tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
+.glossar tr:hover {
+  background-color: var(--side-color);
+  cursor: pointer;
+}
+
+.glossar tr:hover td:first-child {
+  color: hsl(32, 88%, 54%);
+}
+
 .glossar th {
   padding: 14px;
   font-size: 18px;
@@ -249,12 +250,11 @@ tr:nth-child(even) {
   #desktopMenu {
     display: none;
     position: absolute;
-    top: 134px;
+    top: 142px;
     width: 140px;
     font-size: 14px;
     border: 1px solid black;
     background-color: var(--main-color);
-    filter: brightness(120%);
     z-index: 1;
   }
 
@@ -265,5 +265,9 @@ tr:nth-child(even) {
   .sideMenu {
     z-index: 2;
     left: 138px;
+  }
+
+  main {
+    width: calc(100vw - 90px);
   }
 }

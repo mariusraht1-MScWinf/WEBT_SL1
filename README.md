@@ -26,4 +26,4 @@ Committen:
 TODO:
 Zdravka - CSS
 Natasha - About, Examples, Web
-Marius - HTML, MinWidth, Form (hidden-input)
+Marius - HTML, Form (hidden-input)
