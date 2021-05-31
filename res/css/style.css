@@ -192,6 +192,8 @@ p {
   background-color: #e1e1e1;
 }
 
+.glossar tr:hover {background-color:#9af7a1;}
+
 .glossar th {
   padding: 14px;
   font-size: 18px;
