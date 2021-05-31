@@ -194,6 +194,16 @@ p {
 
 .glossar tr:hover {background-color:#9af7a1;}
 
+.gossar td:first-child:hover{
+  color:brown
+}
+.glossar td:first-child{ 
+  cursor:pointer;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 .glossar th {
   padding: 14px;
   font-size: 18px;
