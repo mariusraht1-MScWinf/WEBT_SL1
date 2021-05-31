@@ -8,7 +8,7 @@ Marius Raht
 Zdravka Todorova
 
 ##Validatoren
-- CSS: https://jigsaw.w3.org/css-validator/#validate_by_upload
+- CSS: https://jigsaw.w3.org/css-validator/#validate_by_uploadCancel changes
 - HTML: https://validator.w3.org/#validate_by_upload
 
 --------------------------------------------------------------
@@ -26,4 +26,4 @@ Committen:
 TODO:
 Zdravka - CSS
 Natasha - About, Examples, Web
-Marius - HTML, Form (hidden-input)
+Marius - HTML

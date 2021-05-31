@@ -6,6 +6,7 @@
   <title>SofaWeb - Web-Technologien</title>
   <!-- CSS -->
   <link rel="stylesheet" href="res/css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -31,7 +32,46 @@
 
   <main>
     <h1>02b - CSS</h1>
+    <div>  <div id="CSS-Bild">
+      
+      
+      <img src="C:\Users\zdrav\Desktop\WEBT_SL1\res\img.png" alt="CSS" /></div>
+      
 
+
+    <p>Das CSS (Abkürzung für Cascading Style Sheets) in der Informatik ist eine Sprache, mit der die Formatierung von HTML-, 
+      XHTML- und XML- Dokumenten wie Websites und  verwandten Webseiten definiert wird. Die Regeln für die Erstellung des CSS sind 
+      in einer Reihe von  Richtlinien (Empfehlungen) enthalten, die seit 1996 vom W3C herausgegeben wurden.
+      CSS wurde entwickelt, um die Trennung von Präsentation und Inhalt zu ermöglichen, einschließlich Layout, 
+      Farben und Schriftarten. Diese Trennung kann die Zugänglichkeit von Inhalten verbessern, mehr Flexibilität und Kontrolle 
+      bei der Spezifikation von Präsentationsmerkmalen bieten, es mehreren Webseiten ermöglichen, die Formatierung zu teilen, 
+      indem das relevante CSS in einer separaten.css-Datei angegeben wird, was die Komplexität und Wiederholung des strukturellen 
+      Inhalts wie reduziert auch die CSS - Datei zu ermöglichen, zwischengespeichert die Seitenladegeschwindigkeit zwischen 
+      den Seiten zu verbessern, dass die Datei und der Formatierung teilen.
+      Die Trennung von Formatierung und Inhalt ermöglicht es auch, dieselbe Markup-Seite in verschiedenen Stilen für verschiedene
+       Rendering-Methoden darzustellen, z. B. auf dem Bildschirm, in gedruckter Form, per Sprache (über einen sprachbasierten Browser 
+       oder Bildschirmleser ) und auf Braille-Basis taktile Geräte. CSS hat auch Regeln für alternative Formatierungen, wenn auf den 
+       Inhalt über ein mobiles Gerät zugegriffen wird. </p>
+       <p>Unten die wichtigsten Elemneten zum Aufbau einer css-Datei: <p>
+        <dl>
+        <dt>Selektor </dt>
+        <dd> Der HTML-Elementname steht direkt am Anfang der Regel. Er wählt die Elemente, die gestaltet werden sollen 
+        (in diesem Beispiel p) aus. Um ein anderes Element zu gestalten, muss man nur den Selektor ändern. </dd>
+        <dt>Deklaration<dt>
+        <dd>Eine einzelne Regel wie color: red; gibt an, welche Eigenschaft des Elements gestaltet werden soll. </dd>
+        <dt>Eigenschaft (englisch: property)</dt>
+      <dd>Art, auf die das ausgewählte HTML-Element gestaltet werden soll. (In diesem Fall ist color eine Eigenschaft des 
+        Elements.) In CSS wählen Sie aus, welche Eigenschaften Sie in der Regel setzen wollen. </dd>
+        <dt>Eigenschafts-Wert (englisch: property value)</dt>
+        <dd> Rechts neben der Eigenschaft, nach dem Doppelpunk, steht der Wert der Eigenschaft. Dieser gibt eine von vielen 
+        Möglichkeiten wieder, wie die Eigenschaft das Aussehen eines Elements verändern kann. (Es gibt viele andere Werte für color 
+        außer red).Die Syntax ist sozusagen die Grammatik des Codes:
+        Hinter dem Selektor stehen die zugehörigen Regelsätze innerhalb geschwungener Klammern ({}).
+        Innerhalb einer Deklaration muss man einen Doppelpunkt (:) nutzen, um Eigenschaft und Wert zu trennen.
+        Am Ende jeder Deklaration muss ein Semikolon (;) gesetzt werden.
+        Um mehrere Eigenschaften eines HTML-Elements auf einmal zu verändern, trennt man die Deklarationen innerhalb eines
+        Regelsatzes mit Semikolons. </dd>
+       </dl> 
     <table class="glossar">
       <thead>
         <tr>
@@ -41,43 +81,31 @@
         </thead>
       <tbody>
            <tr>
-          <td><a name="css"></a>CSS</td>
-          <td>Das CSS (Abkürzung für Cascading Style Sheets) in der Informatik
-            ist eine Sprache, mit der die Formatierung von HTML- , XHTML- und XML- Dokumenten wie Websites und
-            verwandten Webseiten definiert wird . Die Regeln für die Erstellung des CSS sind in einer Reihe von
-            Richtlinien (Empfehlungen) enthalten, die seit 1996 vom W3C herausgegeben wurden .</td>
+          <td><a name="css"></a>CSS-Seitenlayouttechniken</td>
+          <td>CSS-Seitenlayouttechniken (CSS page layout techniques) ermöglichen es uns, Elemente einer Webseite zu verwenden und zu steuern, wo sie relativ zu 
+            ihrer Standardposition im normalen Layoutfluss, den anderen Elementen um sie herum, ihrem übergeordneten Container oder 
+            dem Hauptansichtsfenster/-fenster positioniert werden. Die Seitenlayout-Technikens, sind: Normal flow, The display property, Flexbox,  Grid, Floats, Positioning, Table layout, Multiple-column layout.</td>
             <td>Todorova</td>
         </tr>
         <tr>
-          <td>Attribute in CSS</td>
-          <td>Es ist möglich, HTML-Elemente mit bestimmten Attributen oder Attributwerten zu formatieren. Der
-            [attribute]-Selektor wird verwendet, um Elemente mit einem bestimmten Attribut auszuwählen.</td>
+          <td>Deklarationsblock</td>
+          <td>Ein Deklarationsblock besteht aus einer Liste von Deklarationen in geschweiften Klammern. Jede Deklaration selbst besteht aus
+             einer Eigenschaft , einem Doppelpunkt ( :) und einem Wert . Wenn ein Block mehrere Deklarationen enthält, muss ein Semikolon 
+             ( ;) eingefügt werden, um jede Deklaration zu trennen. Ein optionales Semikolon nach der letzten (oder einzelnen) Deklaration 
+             darf verwendet werden</td>
             <td>Todorova</td>
         </tr>
         <tr>
-          <td>Klassen in CSS</td>
-          <td>Eine Klasse ist in CSS - einfach gesagt - eine Gruppierung von Eigenschaften, die einmal definiert wird
-            und in der Regel mehrmals verwendet wird. Klassen können in CSS mehrfach angewendet werden. IDs dagegen
-            können aufgrund der Eigenschaft immer eindeutig identifizierbar zu sein, nur einmal pro Seite verwendet
-            werden.</td>
+          <td>Erbschaft</td>
+          <td>Vererbung ist eine Schlüsselfunktion in CSS; es beruht auf der Vorfahren-Nachkommen-Beziehung, um zu funktionieren. 
+            Vererbung ist der Mechanismus, mit dem Eigenschaften nicht nur auf ein bestimmtes Element, sondern auch auf seine Nachkommen angewendet werden. 
+            Die Vererbung beruht auf dem Dokumentbaum, der Hierarchie von XHTMLElemente in einer Seite basierend auf Verschachtelung. 
+            Nachkommende Elemente können CSS-Eigenschaftswerte von jedem sie umgebenden Vorfahren-Element erben. 
+            Im Allgemeinen erben untergeordnete Elemente textbezogene Eigenschaften, aber ihre kastenbezogenen Eigenschaften werden nicht 
+            geerbt.</td>
           <td>Todorova</td>
         </tr>
-        </tr>
-        <td>ID-Selektor in CSS</td>
-        <td>Ein CSS-ID-Selektor verwendet das ID-Attribut eines HTML-Elements, um ein eindeutiges Element auf einer
-          Seite auszuwählen. Um einen ID-Selektor in CSS zu verwenden, schreiben Sie einfach ein Hashtag (#) gefolgt von
-          der ID des Elements. Fügen Sie dann die Stileigenschaften, die Sie auf das Element anwenden möchten, in
-          Klammern ein. </td>
-          <td>Todorova</td>
-        </tr>
-        <tr>
-          <td>Pseudoklassen</td>
-          <td>Bei Pseudoklassen handelt es sich um einfache Selektoren, die ein Element dann ansprechen, wenn es eine
-            bestimmte Eigenschaft besitzt. So lassen sich zum Beispiel Elemente auswählen, über denen sich gerade der
-            Mauszeiger befindet oder Elemente, die das erste Kindelement eines anderen Elementes sind.</td>
-            <td>Todorova</td>
-        </tr>
-        <tr>
+         <tr>
           <td>list-style-type</td>
           <td>Die CSS-Eigenschaft "list-style-type" bestimmt, wie die Einträge einer Liste ausgezeichnet werden. Übliche
             Arten sind etwa Punkte oder eine Nummerierung vor jedem Eintrag. Meist wird diese Eigenschaft mit dem
@@ -94,6 +122,13 @@
             Schriftarten und Schriftgrößen. In modernen Textverarbeitungsprogrammen wie Microsoft Word wird ein
             Stylesheet als Vorlage bezeichnet. Die bekannteste Form des Stylesheets ist das Cascading Style Sheet (CSS),
             mit dem Webseiten gestaltet werden.</td>
+            <td>Todorova</td>
+        </tr>
+        <tr>
+          <td>Responsive Webdesign</td>
+          <td>Webseiten können auf vielen verschiedenen Geräten angezeigt werden: Desktops, Tablets und Telefone. Ihre Webseite sollte
+             unabhängig vom Gerät gut aussehen und einfach zu bedienen sein.Es wird als responsives Webdesign bezeichnet, wenn Sie den Inhalt mithilfe von CSS und HTML in 
+             der Größe ändern, ausblenden, verkleinern, vergrößern oder verschieben, damit er auf jedem Bildschirm gut aussieht.</td>
             <td>Todorova</td>
         </tr>
       </tbody>

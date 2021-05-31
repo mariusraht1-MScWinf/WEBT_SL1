@@ -226,6 +226,24 @@ p {
   font-weight: 600;
 }
 
+dl,
+dd,
+dt {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  hyphens: auto;
+  text-align: justify;
+  line-height: 1.5em;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+dt {
+  color: hsl(125, 18%, 48%);
+  font-weight: bold;
+}
+
 @media screen and (max-width: 600px) {
   header {
     font-size: 26px;
@@ -269,5 +287,16 @@ p {
 
   main {
     width: calc(100vw - 90px);
+  }
+
+  #CSS-Bild img {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+    padding: 10px;
+    border: 1px solid #d1d1d1;
   }
 }

@@ -7,3 +7,20 @@
     margin-left: 0;
     padding-left: 0;
 }
+
+.person ul li strong {
+    display: inline-block; 
+    width:75%;
+
+}
+
+
+.rund {
+    max-width: 240px;
+    max-height: 240px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    
+  }
+  
