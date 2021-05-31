@@ -257,3 +257,8 @@ p {
     left: 138px;
   }
 }
+@media screen and (min-width:601px) {
+  main{
+    width:calc(100vw - 240px);
+  }
+}
