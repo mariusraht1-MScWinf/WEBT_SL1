@@ -279,4 +279,15 @@ dt{
     z-index: 2;
     left: 138px;
   }
+  #CSS-Bild img{
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+  
+  }
 }
