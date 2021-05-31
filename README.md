@@ -8,7 +8,7 @@ Marius Raht
 Zdravka Todorova
 
 ##Validatoren
-- CSS: https://jigsaw.w3.org/css-validator/#validate_by_uploadCancel changes
+- CSS: https://jigsaw.w3.org/css-validator/#validate_by_upload
 - HTML: https://validator.w3.org/#validate_by_upload
 
 --------------------------------------------------------------
