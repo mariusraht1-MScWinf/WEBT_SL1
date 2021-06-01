@@ -133,6 +133,8 @@ main {
 h1 {
   text-align: center;
   margin: 0px 0px 18px 0px;
+  text-decoration: underline;
+  text-decoration-style: double;
 }
 
 footer {
@@ -186,7 +188,7 @@ p {
   border-collapse: collapse;
   border: 1px solid black;
   line-height: 1.5em;
-}
+  }
 
 .glossar thead tr:first-of-type {
   background-color: #e1e1e1;
@@ -219,7 +221,7 @@ p {
   vertical-align: top;
   text-align: justify;
   padding: 10px;
-}
+  }
 
 .glossar tbody tr td:first-of-type {
   text-align: left;
@@ -284,14 +286,5 @@ dt {
     z-index: 2;
     left: 138px;
   }
-  #CSS-Bild{
-    width: 50%;
-    max-width: 100px;
-    margin-bottom: 20px;
-    float: right;
-    padding: 10px;
-    border: 1px solid rgb(10, 4, 4);
-    margin:20px;
-    border-radius: 50%;
-      }
+        
 }
