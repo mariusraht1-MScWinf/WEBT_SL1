@@ -134,7 +134,7 @@ h1 {
   text-align: center;
   margin: 0px 0px 18px 0px;
   text-decoration: underline;
-  text-decoration-style: double;
+  text-decoration-style: underline;
 }
 
 footer {
