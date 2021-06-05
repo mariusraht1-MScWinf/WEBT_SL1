@@ -181,7 +181,9 @@ p {
   font-size: 16px;
   margin-top: 0px;
 }
-
+.glossar {
+  clear:right;
+}
 .glossar,
 .glossar th,
 .glossar td {
@@ -278,8 +280,13 @@ dt {
 
 video {
   width:100%;
-  height: 56.2%;
   background: transparent url(../img/logo.png) 50% 50% / cover no-repeat ;
+}
+
+.logo {
+  float: right; 
+  margin: 0px 0px 15px 15px;
+  width:300px;
 }
 
 
