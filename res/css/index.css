@@ -1,13 +1,9 @@
-#chapter1 p {
-  margin: 0px;
-}
-
 #chapter1 img {
   width: 100%;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: block;
   padding: 10px;
   border: 1px solid #d1d1d1;
@@ -16,6 +12,11 @@
 #chapter2a img {
   width: 225px;
   float: right;
+  padding-left: 10px;
+}
+
+p {
+  margin-top: 10px;
 }
 
 p:last-of-type {

@@ -15,10 +15,11 @@
 
 #chapter2a {
   grid-column: 2;
+  padding: 10px;
 }
 
 #chapter2a img {
-  width: 215px;
+  width: 180px;
   float: right;
   margin: 2px 0px 0px 10px;
 }
