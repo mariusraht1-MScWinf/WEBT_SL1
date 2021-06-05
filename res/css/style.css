@@ -278,8 +278,9 @@ dt {
 
 video {
   width:100%;
+  height: 56.2%;
+  background: transparent url(../img/logo.png) 50% 50% / cover no-repeat ;
 }
-
 
 
 @media screen and (max-width: 600px) {
