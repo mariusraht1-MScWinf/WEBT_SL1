@@ -297,6 +297,10 @@ dt {
     width: auto;
   }
 
+  main {
+    width: auto;
+  }
+
   #desktopMenu {
     display: none;
     position: absolute;
