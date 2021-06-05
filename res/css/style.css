@@ -293,11 +293,7 @@ dt {
     display: block;
   }
 
-  nav {
-    width: auto;
-  }
-
-  main {
+  nav, main {
     width: auto;
   }
 
