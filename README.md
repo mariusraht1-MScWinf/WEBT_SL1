@@ -25,5 +25,5 @@ Committen:
 
 TODO:
 Zdravka - CSS
-Natasha - About, Examples, Web
+Natasha -  Web
 Marius - HTML
