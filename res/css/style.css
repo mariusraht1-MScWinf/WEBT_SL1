@@ -217,6 +217,36 @@ p {
   width: 25%;
 }
 
+.glossar tr:nth-child(1){
+  white-space: nowrap;
+
+}
+
+.glossar td:nth-child(1){
+   white-space: nowrap;
+ 
+ }
+
+  .glossar tr:nth-child(2){
+    white-space: normal;
+    text-align: justify;
+ }
+ 
+ .glossar td:nth-child(2){
+   white-space: normal;
+   text-align: justify;
+      }
+
+  .glossar tr:nth-child(3){
+    white-space: nowrap;
+ 
+ }
+ 
+ .glossar td:nth-child(3){
+     white-space: nowrap;
+   
+   }
+
 .glossar tbody tr td {
   vertical-align: top;
   text-align: justify;
