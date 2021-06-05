@@ -269,18 +269,18 @@ dt {
   hyphens: auto;
   text-align: justify;
   line-height: 1.5em;
-  font-size: 18px;
   margin-top: 0px;
 }
+
 
 dt {
   color: hsl(125, 18%, 48%);
   font-weight: bold;
+  font-size: 18px;
 }
 
 video {
   width:100%;
-  background: transparent url(../img/logo.png) 50% 50% / cover no-repeat ;
 }
 
 .logo {
