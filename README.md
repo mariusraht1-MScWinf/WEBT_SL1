@@ -27,5 +27,3 @@ TODO:
 Zdravka - CSS
 Natasha -  Web
 Marius - HTML
-
-Frage: müssen wir noch die Versionen von den Browsern angeben? 

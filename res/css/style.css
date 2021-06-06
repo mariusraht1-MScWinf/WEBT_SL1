@@ -181,6 +181,7 @@ p {
   font-size: 16px;
   margin-top: 0px;
 }
+
 .glossar {
   clear: right;
 }
@@ -327,7 +328,7 @@ video {
   }
 
   h1 {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 
   h3 {
@@ -342,11 +343,11 @@ video {
     font-size: 15px;
   }
 
-  th {
+  .glossar th {
     font-size: 16px;
   }
 
-  td {
+  .glossar td {
     font-size: 15px;
   }
 }
