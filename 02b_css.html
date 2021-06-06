@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SofaWeb - Web-Technologien</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="res/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"><img src="res/img/logo.png" alt="Logo" /></a><span>SofaWeb - Web-Technologien</span>
+    </header>
+
+    <nav>
+      <div id="mobileMenu"><img src="res/img/menu.svg" alt="Menu" /></div>
+      <ul id="desktopMenu">
+        <li><a href="index.html">Startseite</a></li>
+        <li id="overview">
+          <a href="overview.html" class="active">Übersicht<img src="res/img/arrow_right.svg" alt="->" /></a>
+          <ul class="sideMenu">
+            <li><a href="01_web.html">01 - Das Web</a></li>
+            <li><a href="02a_html.html">02a - HTML</a></li>
+            <li><a href="02b_css.html" class="active">02b - CSS</a></li>
+          </ul>
+        </li>
+        <li><a href="glossar.html">Glossar</a></li>
+        <li><a href="examples.html">Beispiele</a></li>
+        <li><a href="about.html">Über uns</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>02b - CSS</h1>
+
+      <img class="logo" src="res/img/CSS-Bild.png" alt="CSS Logo" />
+
+      <p>
+        Das CSS (Abkürzung für Cascading Style Sheets) in der Informatik ist eine Sprache, mit der die Formatierung von
+        HTML-, XHTML- und XML- Dokumenten wie Websites und verwandten Webseiten definiert wird. Die Regeln für die
+        Erstellung des CSS sind in einer Reihe von Richtlinien (Empfehlungen) enthalten, die seit 1996 vom W3C
+        herausgegeben wurden.
+      </p>
+      <p>
+        CSS wurde entwickelt, um die Trennung von Präsentation und Inhalt zu ermöglichen, einschließlich Layout, Farben
+        und Schriftarten. Diese Trennung kann die Zugänglichkeit von Inhalten verbessern, mehr Flexibilität und
+        Kontrolle bei der Spezifikation von Präsentationsmerkmalen bieten. Außerdem ermöglicht es mehreren Webseiten,
+        sich Formatierungsanweisungen zu teilen, indem das relevante CSS in einer separaten CSS-Datei angegeben wird,
+        was die Komplexität und Wiederholung des strukturellen Inhalts reduziert. Die Trennung von Formatierung und
+        Inhalt ermöglicht es auch, dieselbe Markup-Seite in verschiedenen Stilen für verschiedene Rendering-Methoden
+        darzustellen, z. B. auf dem Bildschirm, in gedruckter Form, per Sprache (über einen sprachbasierten Browser oder
+        Bildschirmleser) und auf Braille-Basis taktile Geräte. Mit CSS lassen sich auch Regeln für alternative
+        Formatierungen formulieren, wenn auf den Inhalt über ein mobiles Gerät zugegriffen wird. Weitere Details können
+        dem folgenden Video entnommen werden:
+      </p>
+      <video poster="res/img/poster.png" controls>
+        <source src="res/media/CSS2.mp4" type="video/mp4" />
+        HTML5 wird leider nicht unterstützt.
+      </video>
+
+      <p>In den nächsten Reihen können Sie sich die wichtigsten Elementen zum Aufbau einer css-Datei anschauen:</p>
+      <p></p>
+      <dl>
+        <dt>Selektor</dt>
+        <dd>
+          Der HTML-Elementname steht direkt am Anfang der Regel. Er wählt die Elemente, die gestaltet werden sollen (in
+          diesem Beispiel p) aus. Um ein anderes Element zu gestalten, muss man nur den Selektor ändern.
+        </dd>
+        <dt>Deklaration</dt>
+        <dt></dt>
+        <dd>Eine einzelne Regel wie color: red; gibt an, welche Eigenschaft des Elements gestaltet werden soll.</dd>
+        <dt>Eigenschaft (englisch: property)</dt>
+        <dd>
+          Art, auf die das ausgewählte HTML-Element gestaltet werden soll. (In diesem Fall ist color eine Eigenschaft
+          des Elements.) In CSS wählen Sie aus, welche Eigenschaften Sie in der Regel setzen wollen.
+        </dd>
+        <dt>Eigenschafts-Wert (englisch: property value)</dt>
+        <dd>
+          Rechts neben der Eigenschaft, nach dem Doppelpunk, steht der Wert der Eigenschaft. Dieser gibt eine von vielen
+          Möglichkeiten wieder, wie die Eigenschaft das Aussehen eines Elements verändern kann. (Es gibt viele andere
+          Werte für color außer red).Die Syntax ist sozusagen die Grammatik des Codes: Hinter dem Selektor stehen die
+          zugehörigen Regelsätze innerhalb geschwungener Klammern ({}). Innerhalb einer Deklaration muss man einen
+          Doppelpunkt (:) nutzen, um Eigenschaft und Wert zu trennen. Am Ende jeder Deklaration muss ein Semikolon (;)
+          gesetzt werden. Um mehrere Eigenschaften eines HTML-Elements auf einmal zu verändern, trennt man die
+          Deklarationen innerhalb eines Regelsatzes mit Semikolons.
+        </dd>
+      </dl>
+      <table class="glossar">
+        <thead>
+          <tr>
+            <th>Fachbegriff</th>
+            <th>Erklärung</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><a id="css"></a>CSS-Seitenlayouttechniken</td>
+            <td>
+              CSS-Seitenlayouttechniken (CSS page layout techniques) ermöglichen es uns, Elemente einer Webseite zu
+              verwenden und zu steuern, wo sie relativ zu ihrer Standardposition im normalen Layoutfluss, den anderen
+              Elementen um sie herum, ihrem übergeordneten Container oder dem Hauptansichtsfenster/-fenster positioniert
+              werden. Die Seitenlayout-Technikens, sind: Normal flow, The display property, Flexbox, Grid, Floats,
+              Positioning, Table layout, Multiple-column layout.
+            </td>
+            <td>Todorova</td>
+          </tr>
+          <tr>
+            <td>Deklarationsblock</td>
+            <td>
+              Ein Deklarationsblock besteht aus einer Liste von Deklarationen in geschweiften Klammern. Jede Deklaration
+              selbst besteht aus einer Eigenschaft , einem Doppelpunkt ( :) und einem Wert . Wenn ein Block mehrere
+              Deklarationen enthält, muss ein Semikolon ( ;) eingefügt werden, um jede Deklaration zu trennen. Ein
+              optionales Semikolon nach der letzten (oder einzelnen) Deklaration darf verwendet werden.
+            </td>
+            <td>Todorova</td>
+          </tr>
+          <tr>
+            <td>Erbschaft</td>
+            <td>
+              Vererbung ist eine Schlüsselfunktion in CSS; es beruht auf der Vorfahren-Nachkommen-Beziehung, um zu
+              funktionieren. Vererbung ist der Mechanismus, mit dem Eigenschaften nicht nur auf ein bestimmtes Element,
+              sondern auch auf seine Nachkommen angewendet werden. Die Vererbung beruht auf dem Dokumentbaum, der
+              Hierarchie von XHTMLElemente in einer Seite basierend auf Verschachtelung. Nachkommende Elemente können
+              CSS-Eigenschaftswerte von jedem sie umgebenden Vorfahren-Element erben. Im Allgemeinen erben
+              untergeordnete Elemente textbezogene Eigenschaften, aber ihre kastenbezogenen Eigenschaften werden nicht
+              geerbt.
+            </td>
+            <td>Todorova</td>
+          </tr>
+          <tr>
+            <td>List-style-type</td>
+            <td>
+              Die CSS-Eigenschaft "list-style-type" bestimmt, wie die Einträge einer Liste ausgezeichnet werden. Übliche
+              Arten sind etwa Punkte oder eine Nummerierung vor jedem Eintrag. Meist wird diese Eigenschaft mit dem
+              "li"-Element in Verbindung gebracht. Tatsächlich kann es sich jedoch um jedes beliebige Element handeln,
+              dessen display-Eigenschaft list-item ist.
+            </td>
+            <td>Todorova</td>
+          </tr>
+          <tr>
+            <td>Stylesheet</td>
+            <td>
+              Stylesheets stellen einen großen Durchbruch für Webseiten-Designer dar und erweitern ihre Fähigkeit, das
+              Erscheinungsbild ihrer Seiten zu verbessern. Ein Stylesheet ist eine Datei oder ein Formular, das in der
+              Textverarbeitung und im Desktop Publishing verwendet wird, um den Layoutstil eines Dokuments zu
+              definieren. Ein Stylesheet enthält die Spezifikationen des Layouts eines Dokuments, z. B. Seitengröße,
+              Ränder, Schriftarten und Schriftgrößen. In modernen Textverarbeitungsprogrammen wie Microsoft Word wird
+              ein Stylesheet als Vorlage bezeichnet. Die bekannteste Form des Stylesheets ist das Cascading Style Sheet
+              (CSS), mit dem Webseiten gestaltet werden.
+            </td>
+            <td>Todorova</td>
+          </tr>
+          <tr>
+            <td>Responsive Webdesign</td>
+            <td>
+              Webseiten können auf vielen verschiedenen Geräten angezeigt werden: Desktops, Tablets und Telefone. Ihre
+              Webseite sollte unabhängig vom Gerät gut aussehen und einfach zu bedienen sein.Es wird als responsives
+              Webdesign bezeichnet, wenn Sie den Inhalt mithilfe von CSS und HTML in der Größe ändern, ausblenden,
+              verkleinern, vergrößern oder verschieben, damit er auf jedem Bildschirm gut aussieht.
+            </td>
+            <td>Todorova</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <a href="contact.html">Kontakt</a>
+      <a href="impressum.html">Impressum</a>
+    </footer>
+  </body>
+</html>

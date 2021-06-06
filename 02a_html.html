@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SofaWeb - Web-Technologien</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="res/css/style.css" />
+    <link rel="stylesheet" href="res/css/02a_html.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"><img src="res/img/logo.png" alt="Logo" /></a><span>SofaWeb - Web-Technologien</span>
+    </header>
+
+    <nav>
+      <div id="mobileMenu"><img src="res/img/menu.svg" alt="Menu" /></div>
+      <ul id="desktopMenu">
+        <li><a href="index.html">Startseite</a></li>
+        <li id="overview">
+          <a href="overview.html" class="active">Übersicht<img src="res/img/arrow_right.svg" alt="->" /></a>
+          <ul class="sideMenu">
+            <li><a href="01_web.html">01 - Das Web</a></li>
+            <li><a href="02a_html.html" class="active">02a - HTML</a></li>
+            <li><a href="02b_css.html">02b - CSS</a></li>
+          </ul>
+        </li>
+        <li><a href="glossar.html">Glossar</a></li>
+        <li><a href="examples.html">Beispiele</a></li>
+        <li><a href="about.html">Über uns</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>02a - HTML</h1>
+      <p>
+        <img src="res/img/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML Logo" />
+        HTML steht für <strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage
+        und wird hauptsächlich als Auszeichnungssprache für Webseiten verwendet. Der neueste Standard für diese Markup
+        Sprache ist HTML5. Mit HTML wird die Dokumentenstruktur einer Webseite vorgeben. Dabei besteht das Dokument aus
+        jeweils einem öffenden und schließenden Tag sowie Inhalt zwischen den Tags. Durch die Tags wird die gewünschte
+        Struktierung vorgegeben. Mehr dazu findet sich im folgenden Video:
+      </p>
+      <video poster="res/img/poster.png" controls>
+        <source src="res/media/HTML2.mp4" type="video/mp4" />
+        HTML5 wird leider nicht unterstützt.
+      </video>
+
+      <table class="glossar">
+        <thead>
+          <tr>
+            <th>Fachbegriff</th>
+            <th>Erklärung</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a id="audio"></a>Audio</td>
+            <td>
+              Das "audio"-Tag ermöglicht die Einbindung von Audio-Dateien in die Website. Über eine Kontrollleiste kann
+              der Anwender die Wiedergabe steuern, aber auch das automatische Abspielen beim Aufruf der Seite ist
+              möglich. Wie bei Videos können auch hier mehrere Audioquellen angegeben werden. Der Browser wählt dann ein
+              kompatibles Format selbstständig aus.
+            </td>
+            <td>Raht</td>
+          </tr>
+          <tr>
+            <td><a id="anker"></a>Anker/Hyperlink</td>
+            <td>
+              Das Anker-Element dient der Verlinkung innerhalb einer Seite oder auf andere Webseiten anderer oder
+              derselben Domain.
+            </td>
+            <td>Raht</td>
+          </tr>
+          <tr>
+            <td><a id="html"></a>HTML</td>
+            <td>
+              Der Begriff "HTML" steht für "Hypertext Markup Language", auf deutsch "Hypertext-Auszeichnungssprache".
+              Hierbei handelt es sich um das Format, in dem Webseiten geschrieben werden. Sie besteht aus einfachen
+              Auszeichnungselementen, den sogenannten „Tags“ als auch inhaltsleeren Elementen wie etwa. HTML steht als
+              Abkürzung für „Hypertext Markup Language“. Im aktuellen Standard nutzt man XHTML und HTML 5 um
+              insbesondere Suchmaschinen-optimierte und User-orientierte Webseiten mit allen nötigen Elementen zu
+              erstellen. Der Browser kann dann den so entstandenen HTML-Text lesen und die Inhalte entsprechend
+              anzeigen. Neben der reinen Strukturierung von digitalen Inhalten, werden mithilfe von HMTL noch weitere
+              Informationen zu einer Webseite gespeichert. Die sogenannten Meta-Informationen dienen nämlich dazu,
+              zusätzliche Daten zu speichern, wie zum Beispiel Angaben über den Autor. Gerade die Metainformationen,
+              welche über HTML gegeben werden, sind für Suchmaschinen und somit auch für das Ranking des digitalen
+              Produktes relevant. Auch das responsive Design und verschiedene Auszeichnungen innerhalb des Codes sind
+              relevant für das Suchmaschinenranking.
+            </td>
+            <td>Raht</td>
+          </tr>
+          <tr>
+            <td><a id="dom"></a>DOM</td>
+            <td>
+              Das Document Object Model (DOM, engl. für Dokumenten-Objekt-Modell) ist eine Spezifikation einer
+              Programmierschnittstelle, welche HTML- oder XML-Dokumente als eine Baumstruktur darstellt, in der jeder
+              Knoten ein Objekt ist, welches einen Teil des Dokumentes repräsentiert, z. B. einen Absatz, eine
+              Überschrift, ein Video oder etwa eine Tabellenzelle. Die Schnittstelle ist plattform- und
+              programmiersprachenunabhängig und erlaubt damit standardisiert, die Struktur und das Layout eines
+              Dokumentes zu verändern. Im Webbrowser bildet dies einen wichtigen Baustein für dynamische Webseiten.
+            </td>
+            <td>Raht</td>
+          </tr>
+          <tr>
+            <td><a id="listen"></a>Listen</td>
+            <td>
+              Listen sind Aufstellungen von Informationen in einheitlicher Form und fortlaufender Folge. In HTML gibt es
+              3 grundsätzlich verschiedene Listentypen, die neben dem Fließtext zu den häufigsten
+              Textstrukturierungs-Elementen gehören: Beschreibungslisten (&lt;dl&gt;), Listen mit fester Reihenfolge
+              (&lt;ol&gt;) und Aufzählungslisten ohne Reihenfolge (&lt;ul&gt;). Einsatzzweck sind unter anderem
+              Navigationen, Auflistungen und Adressfelder.
+            </td>
+            <td>Raht</td>
+          </tr>
+          <tr>
+            <td><a id="tabellen"></a>Tabellen</td>
+            <td>
+              Die HTML-Tabellen ermöglichen Web-Autoren Daten, wie Texte, Bilder, Links, andere Tabellen etc., in Zeilen
+              und Spalten von Zellen zu arrangieren. Die HTML-Tabellen werden unter Verwendung des "table"-Tags
+              erstellt. Eine Tabelle unterteilt sich dann in "thead" und "tbody". Mithilfe des "tr"-Tags werden
+              Tabellenzeilen erstellt. Das "td"-Tag wird verwendet, um Datenzellen zu erzeugen.
+            </td>
+            <td>Raht</td>
+          </tr>
+          <tr>
+            <td><a id="video"></a>Videos</td>
+            <td>
+              Das "video"-Element wird verwendet, um Videos einzubetten. Es kann verschiedene Quellen für Videos
+              enthalten, die im src-Attribut oder im "source"-Element (en-US) repräsentiert werden. Der Webbrowser wählt
+              dann die für ihn passende Quelle aus.
+            </td>
+            <td>Raht</td>
+          </tr>
+          <tr>
+            <td><a id="canvas"></a>Canvas</td>
+            <td>
+              Das "canvas"-Element wird verwendet, um Grafiken im laufenden Betrieb über JavaScript zu zeichnen. Das
+              "canvas"-Element ist nur ein Container für Grafiken. Sie müssen JavaScript verwenden, um die Grafiken
+              tatsächlich zu zeichnen. Canvas bietet verschiedene Methoden zum Zeichnen von Pfaden, Feldern, Kreisen,
+              Text und zum Hinzufügen von Bildern.
+            </td>
+            <td>Raht</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <a href="contact.html">Kontakt</a>
+      <a href="impressum.html">Impressum</a>
+    </footer>
+  </body>
+</html>
