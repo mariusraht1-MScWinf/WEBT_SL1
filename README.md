@@ -1,6 +1,8 @@
 #SofaWeb - Web-Technologien
+
 Startseite: index.html
-Browser: Chrome, Vivaldi
+Browser: Chrome 91.0.4472.77
+         Vivaldi 3.8.2259.42
 
 ##Autoren
 Natasha Jung
