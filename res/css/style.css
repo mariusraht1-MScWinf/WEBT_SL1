@@ -219,10 +219,6 @@ p {
   width: 25%;
 }
 
-.glossar tr:nth-child(1) {
-  white-space: nowrap;
-}
-
 .glossar td:nth-child(1) {
   white-space: nowrap;
 }
