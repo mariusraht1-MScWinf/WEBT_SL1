@@ -22,8 +22,3 @@ Shortcuts:
 Committen:
 1. Commit Nachricht hinterlegen -> Strg + Enter drücken (Stagen)
 2. Push (synchronize changes, unterste Menüleiste)
-
-TODO:
-Zdravka - CSS
-Natasha -  Web
-Marius - HTML
