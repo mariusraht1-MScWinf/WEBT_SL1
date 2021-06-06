@@ -1,0 +1,11 @@
+#impressumContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 20px;
+  padding: 20px 30px 20px 30px;
+}
+
+p:last-of-type {
+  margin-bottom: 0px;
+}

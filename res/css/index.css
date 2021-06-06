@@ -1,0 +1,17 @@
+div {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin-top: 10px;
+}
+
+p:last-of-type {
+  margin-bottom: 0px;
+}
+
+img{
+  width: 100%;
+}
